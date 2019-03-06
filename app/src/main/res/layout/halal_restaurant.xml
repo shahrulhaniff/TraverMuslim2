@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/noborder"
-            android:hint="Enter Started Location"
+            android:hint="Enter Location"
             android:padding="8dp"
             android:singleLine="true" />
 
@@ -30,24 +30,6 @@
             android:src="@drawable/ic_menu_search" />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/oval"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <EditText
-            android:id="@+id/etDestination"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/noborder"
-            android:hint="Enter the Destination Location"
-            android:padding="8dp"
-            android:singleLine="true" />
-
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

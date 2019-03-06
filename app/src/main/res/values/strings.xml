@@ -1,5 +1,15 @@
 <resources>
-    <string name="app_name">i-Musaffir</string>
+    <string name="app_name">Travel Muslim</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="halal_restaurant">Halal Restaurant</string>
+    <string name="result">Result</string>
+    <string name="datestart">Date Start</string>
+    <string name="dateReturn">Date Return</string>
+    <string name="timeStart">Time Start</string>
+    <string name="timeReturn">Time Return</string>
+    <string name="selectDate">Select Date</string>
+    <string name="selectTime" />
+    <string name="selectTime2">Select Time</string>
+    <string name="check">Check</string>
 </resources>

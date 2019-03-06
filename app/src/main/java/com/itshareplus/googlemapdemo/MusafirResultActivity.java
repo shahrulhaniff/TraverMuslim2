@@ -128,11 +128,11 @@ public class MusafirResultActivity extends AppCompatActivity {
 
     public void checkDateTime(View view) {
 
-        if (tarikhPergi.getText().toString().equals("Pilih Tarikh") || tarikhBaik.getText().toString().equals("Pilih Tarikh") ) {
-            Toast.makeText(this, "Sila Masukan Tarikh Anda", Toast.LENGTH_LONG).show();
+        if (tarikhPergi.getText().toString().equals("Select Date") || tarikhBaik.getText().toString().equals("Select Date") ) {
+            Toast.makeText(this, "Please Enter Your Date", Toast.LENGTH_LONG).show();
         }
-        else if(masaPergi.getText().toString().equals("Pilih Masa") || masaBalik.getText().toString().equals("Pilih Masa") ){
-            Toast.makeText(this, "Sila Masukan Masa Perjalanan Anda", Toast.LENGTH_LONG).show();
+        else if(masaPergi.getText().toString().equals("Select Time") || masaBalik.getText().toString().equals("Select Time") ){
+            Toast.makeText(this, "Please Enter Your Travel Time", Toast.LENGTH_LONG).show();
         }
         else{
             String dateStart = tarikhPergi.getText().toString()+" "+masa1;
@@ -156,13 +156,13 @@ public class MusafirResultActivity extends AppCompatActivity {
                     Intent intent = new Intent(this, Result.class);
                     intent.putExtra("data", "1");
                     startActivity(intent);
-                    //Toast.makeText(this, "Anda Boleh Jamak Dan Qasar Sepanjang Perjalanan Anda", Toast.LENGTH_LONG).show();
+                    //Toast.makeText(this, "You Can Jamak Dan Qasar On Your Travel", Toast.LENGTH_LONG).show();
                 }
                 else if ((diffHour-24) > 84){
                     Intent intent = new Intent(this, Result.class);
                     intent.putExtra("data", "2");
                     startActivity(intent);
-                    //Toast.makeText(this, "Anda Boleh Jamak Dan Qasar Semasa Perjalanan Pergi Dan Perjalanan Pulang Sahaja", Toast.LENGTH_LONG).show();
+                    //Toast.makeText(this, "You Can Jamak Dan Qasar While Traveling And Returning Travel Only", Toast.LENGTH_LONG).show();
                 }
 
             } catch (Exception e) {

@@ -21,10 +21,10 @@ public class Result extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.tv_Result);
 
         if (message.equals("1")){
-            textView.setText("Anda Boleh Jamak Dan Qasar Sepanjang Perjalanan Anda");
+            textView.setText("You Can Jamak And Qasar Along Your Trip");
         }
         else if (message.equals("2")){
-            textView.setText("Anda Boleh Jamak Dan Qasar Semasa Perjalanan Pergi Dan Perjalanan Pulang Sahaja");
+            textView.setText("You Can Jamak And Qasar While Traveling And Returning Travel Only");
         }
     }
 
